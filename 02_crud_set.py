@@ -15,3 +15,15 @@ print(set_countries)
 
 set_countries.update({'arg', 'per'})
 print(set_countries)
+
+# Eliminar elemento y  si no existe lanza un error
+set_countries.remove('col')
+print(set_countries)
+
+# Elimina un elemento y si ya existe no lanza ninugn error
+set_countries.discard('col')
+print(set_countries)
+
+# Elimina todo el conjunto
+set_countries.clear()
+print(set_countries)
