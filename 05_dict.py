@@ -11,6 +11,9 @@ import random
 dict_2 = {i: i * 2 for i in range(1, 5)}
 print(dict_2)
 
+dict_3 = {i: i + 2 for i in range(1, 6)}
+print(dict_3)
+
 
 # Generando diccionario a partir de una lista
 countries = ['col', 'mex', 'bol', 'bra']
